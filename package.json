@@ -27,35 +27,35 @@
     "server"
   ],
   "dependencies": {
-    "socket.io": "2.0.4",
     "async": "0.2.5",
-    "seq-queue": "0.0.5",
-    "crc": "0.2.0",
-    "cliff": "0.1.8",
-    "mkdirp": "0.3.3",
-    "pomelo-loader": "0.0.6",
-    "pomelo-rpc": "git+https://github.com/leiyangyou/pomelo-rpc.git",
-    "pomelo-protocol": "0.1.6",
-    "pomelo-admin": "git+https://github.com/leiyangyou/pomelo-admin.git",
-    "pomelo-logger": "0.1.7",
-    "pomelo-scheduler": "0.3.9",
-    "ws": "5.1.0",
-    "pomelo-protobuf": "0.4.0",
-    "node-bignumber": "1.2.1",
+    "cliff": "0.1.10",
     "commander": "2.0.0",
-    "mqtt": "2.17.0"
+    "crc": "0.2.0",
+    "mkdirp": "0.3.3",
+    "mqtt": "2.18.8",
+    "node-bignumber": "1.2.1",
+    "pomelo-admin": "git+https://github.com/leiyangyou/pomelo-admin.git",
+    "pomelo-loader": "0.0.6",
+    "pomelo-logger": "git+https://github.com/leiyangyou/pomelo-logger.git",
+    "pomelo-protobuf": "0.4.0",
+    "pomelo-protocol": "0.1.6",
+    "pomelo-rpc": "git+https://github.com/leiyangyou/pomelo-rpc.git",
+    "pomelo-scheduler": "git+https://github.com/leiyangyou/pomelo-scheduler.git",
+    "seq-queue": "0.0.5",
+    "socket.io": "2.0.4",
+    "ws": "5.1.0"
   },
   "bin": {
     "pomelo": "./bin/pomelo"
   },
   "devDependencies": {
-    "should": "3.3.1",
+    "blanket": "~1.1.6",
+    "grunt": "^1.0.3",
+    "grunt-contrib-clean": "0.5.x",
+    "grunt-contrib-jshint": "^2.0.0",
+    "grunt-mocha-test": "^0.13.3",
     "mocha": ">=0.0.1",
     "muk": ">=0.0.1",
-    "grunt": "~0.4.2",
-    "grunt-mocha-test": "0.8.x",
-    "grunt-contrib-clean": "0.5.x",
-    "grunt-contrib-jshint": "~0.8.0",
-    "blanket": "~1.1.6"
+    "should": "3.3.1"
   }
 }
